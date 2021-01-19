@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Servicios</title>
+		<description></description>
+		<link></link>
+		<lastBuildDate>Mon, 12 Nov 2018 06:13:05 -0500</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.eltelegrafo.com.ec/contenido/categoria/6/sociedad?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item servicio="ethhack">
+			<titulo>Ethical Hacking</titulo>
+			<imagenser>https://via.placeholder.com/300x300</imagenser>
+			<descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor. Vestibulum bibendum, lacus sit amet vestibulum commodo, nibh mi vulputate massa, eu faucibus sem mi a neque. Duis volutpat tellus ac tortor feugiat congue. Suspendisse maximus in turpis feugiat sodales.</descripcion>
+			<beneficio1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio1>
+			<bene1imagen>https://via.placeholder.com/250x250</bene1imagen>
+			<beneficio2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio2>
+			<bene2imagen>https://via.placeholder.com/250x250</bene2imagen>
+			<beneficio3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio3>
+			<bene3imagen>https://via.placeholder.com/250x250</bene3imagen>
+			<beneficio4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio4>
+			<bene4imagen>https://via.placeholder.com/250x250</bene4imagen>
+			<author>Segtium S.A</author>
+			<category>Servicios</category>
+			<pubDate>Tue, 28 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+		<item servicio="cyber">
+			<titulo>Análisis de Cyberseguridad</titulo>
+			<imagenser>https://via.placeholder.com/300x300</imagenser>
+			<descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor. Vestibulum bibendum, lacus sit amet vestibulum commodo, nibh mi vulputate massa, eu faucibus sem mi a neque. Duis volutpat tellus ac tortor feugiat congue. Suspendisse maximus in turpis feugiat sodales.</descripcion>
+			<beneficio1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio1>
+			<bene1imagen>https://via.placeholder.com/250x250</bene1imagen>
+			<beneficio2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio2>
+			<bene2imagen>https://via.placeholder.com/250x250</bene2imagen>
+			<beneficio3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio3>
+			<bene3imagen>https://via.placeholder.com/250x250</bene3imagen>
+			<beneficio4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio4>
+			<bene4imagen>https://via.placeholder.com/250x250</bene4imagen>
+			<author>Segtium S.A</author>
+			<category>Servicios</category>
+			<pubDate>Tue, 28 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+		<item servicio="ISO">
+			<titulo>Consultoría ISO 27001</titulo>
+			<imagenser>https://via.placeholder.com/300x300</imagenser>
+			<descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor. Vestibulum bibendum, lacus sit amet vestibulum commodo, nibh mi vulputate massa, eu faucibus sem mi a neque. Duis volutpat tellus ac tortor feugiat congue. Suspendisse maximus in turpis feugiat sodales.</descripcion>
+			<beneficio1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio1>
+			<bene1imagen>https://via.placeholder.com/250x250</bene1imagen>
+			<beneficio2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio2>
+			<bene2imagen>https://via.placeholder.com/250x250</bene2imagen>
+			<beneficio3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio3>
+			<bene3imagen>https://via.placeholder.com/250x250</bene3imagen>
+			<beneficio4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio4>
+			<bene4imagen>https://via.placeholder.com/250x250</bene4imagen>
+			<author>Segtium S.A</author>
+			<category>Servicios</category>
+			<pubDate>Tue, 28 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+		<item servicio="codigo">
+			<titulo>Análisis de Código</titulo>
+			<imagenser>https://via.placeholder.com/300x300</imagenser>
+			<descripcion>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor. Vestibulum bibendum, lacus sit amet vestibulum commodo, nibh mi vulputate massa, eu faucibus sem mi a neque. Duis volutpat tellus ac tortor feugiat congue. Suspendisse maximus in turpis feugiat sodales.</descripcion>
+			<beneficio1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio1>
+			<bene1imagen>https://via.placeholder.com/250x250</bene1imagen>
+			<beneficio2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio2>
+			<bene2imagen>https://via.placeholder.com/250x250</bene2imagen>
+			<beneficio3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio3>
+			<bene3imagen>https://via.placeholder.com/250x250</bene3imagen>
+			<beneficio4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui nunc, fermentum sed orci eget, dapibus consectetur tortor.</beneficio4>
+			<bene4imagen>https://via.placeholder.com/250x250</bene4imagen>
+			<author>Segtium S.A</author>
+			<category>Servicios</category>
+			<pubDate>Tue, 28 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+    </channel>
+</rss>

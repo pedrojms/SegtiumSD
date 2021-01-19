@@ -1,0 +1,32 @@
+{% extends 'reportes.html' %}
+{% block contenido %}
+
+	<thead>
+		<tr>
+			<td>#</td>
+			<td>Nombre</td>
+			<td>Apellido</td>
+			<td>Cedula</td>
+			<td>Correo</td>
+			<td>Total Ventas</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for usuario in object_list %}
+		<tr>
+			<td>{{ usuario.id }}</td>
+			<td>{{ usuario.nombre }}</td>
+			<td>{{ usuario.apellido }}</td>
+			<td>{{ usuario.cedula }}</td>
+			<td>{{ usuario.correo }}</td>
+			<td>{{ usuario.totalventas }}</td>
+		</tr>
+		{% endfor %}
+		
+		{% else %}
+		<h1>No hay registros de usuario</h1>
+		{% endif %}
+	</tbody>
+
+{% endblock %}

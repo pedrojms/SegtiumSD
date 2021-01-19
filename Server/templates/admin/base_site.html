@@ -1,0 +1,46 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Segtium Administration {% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}"></a></h1>Segtium Administration
+{% endblock %}
+
+{% block content_title %}{% if title %}<h1>Segtium</h1>
+
+<div class="app-reportes module">
+	<table>
+		<caption>
+			<a href="/admin/auth/" class="section" title="Reportes Models">Reportes</a>
+		</caption>
+		<tbody>
+			<tr class="model-reporte1">
+				<th scope="row">
+					<a href="{% url 'r-servicios' %}">Reportes de Servicios</a>
+				</th>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="model-reporte2">
+				<th scope="row">
+					<a href="{% url 'r-vendedor' %}">Reportes de Vendedor</a>
+				</th>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="model-reporte3">
+				<th scope="row">
+					<a href="{% url 'r-empresa' %}">Reportes de Empresas</a>
+				</th>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	
+</div>
+
+{% endif %}{% endblock %}
+
+
+{% block nav-global %}{% endblock %}

@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+      <br>
+      
+      <br>
+      <div class="row">
+        <section id="titulocontact" class="col-xl-12">
+          <div id="contact1">
+            <p class="col-xl-12 col-12">Mi Perfil</p>  
+          </div>
+          <div id="contact2">
+            <p class="col-xl-12 col-12">Bienvenido</p>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <br>
+        <br>
+        <h3 class="text-center">Información del Usuario:</h3>
+        <br>
+        <br>
+        {% if object_list %}
+        {% for usuario in object_list %}
+        <div class="col-12 col-xl-12">
+          <br>
+          <br>  
+          <h3>Nombre:</h3>
+          <div class="col-12">
+            <h4> {{ usuario.nombre }}</h4>
+          </div>
+          <br>
+          <br>
+          <h3>Apellido:</h3>
+          <div class="col-12">
+            <h4> {{ usuario.apellido }}</h4>
+          </div>
+          <br>
+          <br>
+          <h3>Correo:</h3>
+          <div class="col-12">
+            <h4> {{ usuario.correo }}</h4>
+          </div>
+          <br>
+          <br>
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+{% endblock %}

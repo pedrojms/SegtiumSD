@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Ubuntu');
+
+img[id^="im-socialmed"]{
+	width:25px;
+	height:25px;
+}
+
+section#top{
+	/*display: inline-block;*/
+	background-color: #282c37;
+	color:white;
+	font-style: 'Ubuntu', sans-serif;
+	font-size: medium;
+	background-size: cover;
+}
+#red-sociales p{
+	display: inline-block;
+	margin:auto;
+	text-align: end;
+}
+
+#red-sociales li img{
+	display: inline-flex;
+	margin:auto;
+}
+
+#menu {
+	font-size: medium;
+	text-align: center;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+li{
+	display: inline-block;
+	margin-right: auto;
+	text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+
+}
+
+#logo-div a img{
+	width:300px;
+	height:150px;
+}
+
+section#buscar{
+	text-align: end;
+}
+
+nav{
+	display: inline-block;
+}
+
+section#frase{
+	background-color: #2b90d9;
+	text-align: center;
+	padding: 0.8em;
+	background-size: cover;
+}
+
+section#frase h2{
+	color: white;
+	font-family: 'Alegreya', serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+/*#tl-h1{
+	text-align: center;
+	font-family: : 'Alegreya', sans-serif;
+	font-size: 2em;
+	color: grey;
+	font-weight: bold;
+	font-style: italic;
+}*/
+
+section#solucion{
+	background-color: #9baec8;
+	text-align: center;
+	padding: 0.1em;
+}
+
+section#solucion h2{
+	color: white;
+	font-family: 'Alegreya', serif;
+	font-size: 2.5em;
+}
+
+
+div[id^="solu"]{
+	display: inline-block;
+	margin-top: auto;
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-size: cover;
+}
+
+div[id^="solu"] p{
+	text-align: center;
+	font-family: : 'Ubuntu', sans-serif;
+	font-size: x-large;
+	color: white;
+}
+
+section#soluciones{
+	background-size: cover;
+}
+
+section#info{
+	background-color: #9baec8;
+	font-family: 'Ubuntu', Sans-Serif;
+	/*height: 110px;*/
+	
+}
+#info div {
+	text-align: center;
+    /*width: 200px;*/
+}
+div[id^="in"]{
+	/*padding-right: 115px;
+	padding-left: 115px;
+	margin: auto;*/
+	/*display: inline-block;*/
+	display: inline-block;
+	margin:auto;
+	font-size: small;
+}
+
+div#solu1, div#solu3{
+	background-color: #2b90d9;
+	transition: transform .2s;
+}
+
+div#solu2{
+	background-color: #3d8af7;
+	transition: transform .2s;
+
+}
+
+div#graph, div#linea-tiempo{
+	background-color: #9baec8;
+	text-align: center;
+	padding: 0.5em;
+}
+
+div#graph h2, div#linea-tiempo h2{
+	color: white;
+	font-family: 'Alegreya', serif;
+	font-size: 2.5em;
+}
+
+div#graficos{
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 5em;
+}
+
+footer{
+	background-color: #282c37;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	color:white;
+	padding: 0.8px;
+}
+
+
+#somos-text {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#mision-vision div div{
+	display: inline-grid;
+	margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 50px;
+}
+
+#mision-vision img {
+	display: inline-flex;
+	justify-content: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#mision-vision h2 {
+	font-size: 3em;
+	font-family: 'Alegreya', sans-serif;
+	color: #2b90d9;
+	text-align: center;
+}
+
+#mision-vision p {
+	font-size: 1.5em;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: justify;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#valores h2 {
+	font-size: 3em;
+	font-family: 'Alegreya', sans-serif;
+	text-align: center;
+	color: #2b90d9;
+}
+
+table {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table td {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 0.88em;
+	
+}
+
+#vertical-menu a {
+    background-color: #9baec8; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    font-family: 'Ubuntu',Sans-Serif;
+    font-size: 1.75em;
+    text-decoration: none; /* Remove underline from links */
+    width: 300px;
+}
+
+#vertical-menu a:hover {
+    background-color: #ebebeb; /* Dark grey background on mouse-over */
+}
+
+/*#vertical-menu a#active {
+    background-color: #2b90d9;  Add a green color to the "active/current" link 
+    color: white;
+}
+*/
+#menu-reporte a:hover {
+    background-color: #ebebeb; /* Dark grey background on mouse-over */
+}
+
+/*##menu-reporte a#active {
+    background-color: #2b90d9; /* Add a green color to the "active/current" link 
+    color: white;
+}*/
+
+#menu-ser div div{
+	display: inline-grid;
+	margin: auto;
+	vertical-align: middle;
+    padding-bottom: 20px;  
+}
+
+
+#imagen-ser {
+	display: inline-flex;
+	justify-content: center;
+	margin-left: auto;
+    margin-right: auto;
+    /*border-radius: 50px;*/
+}
+
+
+#txt-ser {
+	display: inline-grid;
+	margin: auto;
+	text-align: center;
+	width: 300px;
+}
+
+#txt-ser p{
+	font-size: medium;
+	text-align: justify;
+	
+}
+
+#menu-ser h2 {
+	font-family: 'Alegreya',Sans-Serif;
+	font-size: 2.5em;
+}
+
+#menu-ser p {
+	font-family: 'Ubuntu',Sans-Serif;	
+	font-size: 1.2em;
+}
+
+#bene-titulo h1{
+	text-align: center;
+	font-size: 3.25em;
+	font-family: 'Alegreya',Sans-Serif;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#beneficios-prod{
+	text-align: center;
+	padding-bottom: 75px;
+}
+/*
+[class*="col-6"] {
+	font-size: 0.9em;
+}
+[class*="col-xl-"] {
+	font-size: 1.25em;
+}*/
+
+div[id^="bene"] p {
+	font-size: medium;
+	font-family: 'Ubuntu',Sans-Serif;
+	text-align: justify;
+	padding: 25px;
+}
+
+section#titulonews{
+	background-color: #2b90d9;
+	font-family: 'Alegreya',Sans-Serif;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+
+}
+
+h2#titulo1, h2#titulo2{
+	font-family: 'Alegreya',Sans-Serif;
+	text-align: left;
+	font-size: 2em;
+	color: #2b90d9;
+	text-align: justify;
+}
+
+div[id^="not"]{
+	display: inline-block;
+	vertical-align: center;
+	font-family: 'Ubuntu',Sans-Serif;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+form#buscar {
+	text-align: right;
+	/*padding-right: 125px;*/
+}
+
+section#titulocontact{
+	background-color: #2b90d9;
+	text-align: center;
+	color: white;
+}
+
+div#contact1{
+	font-family: 'Alegreya',Sans-Serif;
+	font-size: 2.5em;
+}
+
+div#contact2{
+	font-family: 'Ubuntu',Sans-Serif;
+	font-size: 1.5em;
+}
+
+#llenar-campos {
+	display: inline-grid;
+	margin: auto;
+	padding-bottom: 25px;
+}
+
+#llenar-campos div input, textarea {
+	border-radius: 25px;
+}
+
+#llenar-campos input.error{
+	border:1px solid red;
+}
+
+#llenar-campos label.error{
+	background:url(../imagenes/unchecked.png) no-repeat;
+    padding-left:16px;
+    margin-left:.3em
+    color:blue;
+}
+
+#llenar-campos label.valid{
+    background:url(../imagenes/checked.png) no-repeat;
+    display:block;
+    width:16px;
+    height:16px
+}
+
+#enviar {
+	display: inline-grid;
+	margin: auto;
+	width: 100px;
+}
+div#mapa-contenedor {
+	display: inline-grid;
+	margin: auto;
+	justify-content: center;
+    padding-bottom: 45px;
+}
+
+#mapa {
+    width:  300px;
+    height: 200px;
+}
+
+#centrarform{
+	text-align: center;
+	display: inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+
+#formcontactar{
+	display: inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#fecha-fuente div{
+	display: inline-flex;
+	margin-left:auto;
+	margin-right:auto;
+}
+section#pintarnews{
+	text-align: left;
+	background-color: #2b90d9;
+}

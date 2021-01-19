@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+      <br>
+      <div class="row">
+        <section id="titulocontact" class="col-xl-12">
+          <div id="contact1">
+            <p class="col-xl-12 col-12">Contáctenos</p>  
+          </div>
+          <div id="contact2">
+            <p class="col-xl-12 col-12">Estaremos felices de contestarle cualquier duda</p>
+          </div>
+        </section>
+      </div>
+      <div class="col-xl-12 col-12">  
+          {% load crispy_forms_tags %}
+          {% block main %}
+          <br>
+          <form class="col-xl-12" id="formcontactar" action="/contacto/" method="post"> 
+            <br>
+            <div class="col-xl-12 align-item-center">
+              <br>
+              <br>
+            <div class="col list-group-item text-center">
+            <div class="col-xl-12 col-12">
+            {% csrf_token %}
+            {{ form|crispy }}
+
+            <input type="submit" value="Enviar" /> 
+            <br>
+            </div>
+            </div>
+            </div>
+            </div>
+            <br>
+          </form>
+          {% endblock %}
+
+      </div>
+      <br>
+      <br>
+      
+      <div id="mapa-contenedor" class="col-xl-12 col-12">
+        <div id="mapa"></div>
+      </div>
+
+{% endblock %}
+{% block script %}
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  <script src="{% static 'js/validation.js' %}" type="text/javascript" charset="utf-8" async defer></script>
+  <script type="text/javascript" src="{% static 'js/geo.js' %}"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBpZtjIHQOooacGLwjC8xDvwklreYc-lHY&sensor=false&callback=myMap"></script>
+{% endblock %}

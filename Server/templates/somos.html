@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+      <br>
+      <section id="im" class="col-xl-12">
+        <img src="{% static 'imagenes/seguridad.png' %}" alt="placeholder" class="col-12"/>
+      </section>
+
+      <section id="somos-text" class="col-xl-12">
+        <br>
+        <p>
+          Segtium S.A. es una empresa ecuatoriana creada pensando en las necesidades reales de su negocio en materia de seguridad de la información.
+          Está formada por profesionales de amplia trayectoria, preocupados por desarrollar estrategias y concientización de la Seguridad de la Información.
+          <p>
+        <br>
+      </section>
+      
+      <section id="mision-vision" class="col-xl-12">
+        <div class="row">
+          <div id="mision" class="col-xl-6">
+            <img id="im-mision" src="{% static 'imagenes/mision.png' %}" alt="placeholder" class="col-xl-6"/>
+            <h2 class="col-xl-12">Misión</h2>
+            <p class="col-xl-9">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  s
+            </p>
+          </div>
+          <div id="vision" class="col-xl-6">
+            <img src="{% static 'imagenes/vision.png' %}" alt="placeholder" class="col-xl-6"/>
+            <h2 class="col-xl-12">Visión</h2>
+            <p class="col-xl-9">
+               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem  
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="valores" class="col-xl-12 col-12">
+        <h2 class="col-xl-12 col-12">
+          Valores
+        </h2>
+        <table id="tabla-valores" class="col-xl-12 col-12">
+          <tr class="col-xl-12 col-12">
+            <td class="col-xl-4 col-6">
+              <img src="{% static 'imagenes/valor2.png' %}" alt="placeholder" />
+              <p>Dar Confianza a Nuestros clientes</p>
+            </td>
+            <td class="col-xl-4 col-6">
+              <img src="{% static 'imagenes/valor3.png' %}" alt="placeholder" />
+              <p>Capacitación constante de nuestro equipo de trabajo</p>
+            </td>
+          </tr>
+          <tr class="col-xl-12 col-12">
+            <td class="col-xl-4 col-6">
+              <img src="{% static 'imagenes/valores1.png' %}" />
+              <p>Fortalecer técnicamente en temas de seguridad de la información al Area de TI</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+{% endblock %} 

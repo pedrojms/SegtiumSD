@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+      <div class="col-12 row">
+        <section id="titulonews" class="col-12 col-xl-12">
+          <p class="col-12 col-xl-12">Noticias</p>
+        </section>
+      </div>
+      <div class="col-12 col-xl-12">
+        <section id="news" class="col-12 col-xl-12">
+          <br>
+          <div class="container">
+            <div class="container">
+          <div class="col 12 col-xl-12">
+            <br>
+            <br>
+            {% if object_list %}
+            {% for noticia in object_list %}
+            <div class="col-12 col-xl-12 text-right" id="pintarnews">
+              <div class="col-12 col-xl-12">
+                <h2>{{noticia.titulo}}</h2>
+              </div>
+              <br>
+              <br>
+              <div class="col-12 col-xl-12">
+                <div class="col-12 col-xl-12 text-right">
+                  <h3>{{noticia.descripcion}}</h3>
+                </div>
+                <br>
+                <div class="col-12 col-xl-12 text-right" id="fecha">
+                  
+                    <p>Fecha: {{noticia.fecha}}</p>
+                  </div>
+                  <div class="col-12 col-xl- text-right" id="fuente">
+                    <p>Fuente: {{noticia.fuente}}</p>
+                  </div>
+                
+                <br>
+              </div>
+
+              {% if request.user.is_authenticated %} 
+              {% if 'admin' in user.get_username %} 
+                <div class="col-12 col-xl-12">
+                  <a class="btn btn-primary" href="{% url 'borrar-model' dato=noticia.id %}">Delete</a>
+                  <a class="btn btn-primary" href="{% url 'actualizar-model' dato=noticia.id %}">Edit</a>
+                </div>
+              {% endif %}
+              {% endif %}
+            </div>
+            <br>
+            <br>
+            <br>
+            {% endfor %}
+            {% endif %}
+            </div>
+          </div>
+          </div>
+
+
+          <!--<div class="row">
+            <article class="col-xl-12">
+              <div class="row">
+                <header>
+                  <h2 id="titulo1" class="titulo-news col-xl-12">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</h2>
+                </header>
+              </div>
+              <div id="not1" class="col-xl-12">
+                <div class="row">
+                  <img src="https://via.placeholder.com/200x100" alt="placeholder" class="col-xl-3"/>
+                  <p class="col-xl-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit congue massa non sodales. Quisque rutrum placerat ligula, ac venenatis ligula vehicula ut. Ut feugiat finibus neque, sit amet ornare odio dignissim id. Morbi nec sapien augue. Phasellus ut est ultrices, ullamcorper nulla in, convallis mi. In non pellentesque eros. Suspendisse in lorem imperdiet, ornare sem at, sollicitudin nunc.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="row">
+            <article class="col-xl-12">
+              <div class="row">
+                <header>
+                    <h2 id="titulo2" class="titulo-news col-xl-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit congue massa non sodales</h2>
+                </header>
+              </div>
+              <div id="not2" class="col-xl-12">
+                <div class="row">
+                  <img src="https://via.placeholder.com/200x100" alt="placeholder" class="col-xl-3"/>
+                  <p class="col-xl-9">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Quisque rutrum placerat ligula, ac venenatis ligula vehicula ut. Ut feugiat finibus neque, sit amet ornare odio dignissim id. Morbi nec sapien augue. Phasellus ut est ultrices, ullamcorper nulla in, convallis mi. In non pellentesque eros. Suspendisse in lorem imperdiet, ornare sem at, sollicitudin nunc.</p>
+                </div>
+              </div>
+            </article>
+          </div>-->
+          <br>
+          <br>
+        </section>
+        <div class="row">
+          
+          <div class="col-12 text-center">
+            <div class="col-12 text-center">
+              <div class="col-xl-12 col-12">
+              {% if request.user.is_authenticated %} 
+                {% if 'admin' in user.get_username %}
+                  <a class="btn btn-primary" href="{% url 'agregar-model' %}">Agregar noticia</a>
+                {% endif %}
+              {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+{% endblock %} 
